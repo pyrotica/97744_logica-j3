@@ -1,0 +1,92 @@
+desafio N-1
+
+R=(A and B) Or Not(A and B)
+R=(V and F) Or Not(V and F)
+R=(F) Or Not(F)
+R=F Or V
+R= V
+
+__________________________________________________________________________
+
+desafio N-2
+
+R=(V OR F) And Not(V and F)
+R= V And Not(F)
+R= V And V
+R= V
+
+__________________________________________________________________________
+
+desafio N-3
+
+R=Not(V And F) And Not(V OR F)
+R=Not(F) And Not(V)
+R= V And F
+R= F
+
+__________________________________________________________________________
+
+desafio N-4
+
+R=((V And F) And  (V OR F)) OR (V And F)
+R= (F And V) OR F
+R= F OR F
+R= F
+
+__________________________________________________________________________
+
+desafio N-5
+
+R= (V OR F) OR (Not(V And F) OR Not(V OR F))
+R= V OR (Not(F) OR Not(V))
+R= V OR V OR F
+R= V
+
+__________________________________________________________________________
+
+desafio N-6
+
+R=Not(V OR F) And (Not(V OR F) OR (V And F))
+R=Not(V) And ((Not(V) OR F))
+R= F And (F OR F)
+R= F And F
+R= F
+
+__________________________________________________________________________
+
+desafio N-7
+
+R= (V OR F) OR ((V And F) And Not(V OR F))
+R= V OR (F And Not(V))
+R= V OR (F And F)
+R= V OR F
+R= V
+
+__________________________________________________________________________
+
+desafio N-8
+
+R=(Not(V And F) And (V And F)) OR (V OR F)
+R= (Not(F) AND F) OR V
+R= (V And F) Or V
+R= F OR V 
+R= V
+
+__________________________________________________________________________
+
+desafio N-9
+
+R= ((Not(V) OR F) And Not(V And F)) OR Not(V OR F)
+R= ((F OR F) And Not(F)) OR Not(V)
+R= (F And V) OR F
+R= F Or F
+R= F
+
+__________________________________________________________________________
+
+desafio N-10
+
+R= ((Not(V) OR F) And (V And Not(F))) OR Not(V OR F)
+R= (F OR F) And (V And V) OR Not(V)
+R= F And V Or F
+R= F
