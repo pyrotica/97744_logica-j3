@@ -3,7 +3,7 @@ os.system("cls || clear")
 diciplina=""
 # função sem retorno
 def logo_senai():
-    print(f"=== SENAI ===")
+     print("=== SENAI ===")
 logo_senai() #chamar a função
 aluno=str(input("digite o seu nome: "))
 os.system("cls || clear")
