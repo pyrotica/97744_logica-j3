@@ -4,8 +4,8 @@ soma=0
 contador=0
 resultado=""
 lista=[]
-
-for i in range(4):
+QUANT=4
+for i in range(QUANT):
  num=int(input(f"digite a {1+i}º nota: "))
  
  soma+=num
@@ -31,6 +31,7 @@ print(resultado)
 print()
 print(f"somatoria das notas: {sum(lista)}\n")
 print(f"media: {media}\n")
-print(f"lista: {lista}")
+for i, num in enumerate(lista, start=1):
+ print(f"{i}º numero {num}")
 
 # for num in lista:
