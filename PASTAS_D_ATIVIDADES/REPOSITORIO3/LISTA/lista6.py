@@ -41,5 +41,3 @@ print(f"lista de numeros pares: {lista_par}\n\nlista de numeros impares: {lista_
 print("=====TERMOS DA LISTA=====\n")
 for i, n1 in enumerate(lista_total, start=1):
  print(f"\n{i}º termo da lista: {n1}")
-
-
