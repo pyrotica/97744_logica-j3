@@ -22,6 +22,7 @@ while True:
     print(f"Chave e valor adicionados: {chave}: {valor}")
     print(f"Dicionário atual: {dicionario}\n")
     time.sleep(1.8)
+    
 
 # Exibir o dicionário final
 
