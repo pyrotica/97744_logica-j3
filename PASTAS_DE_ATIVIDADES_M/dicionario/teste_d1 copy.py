@@ -19,23 +19,10 @@ dicionario["idade"] = 24
 print(f"imprimir o nome: {dicionario["nome"]}\n")
 print(f"imprimir a idade: {dicionario["idade"]}\n")
 print(f"imprimir a cidade: {dicionario["cidade"]}\n")
-#remover chave
-dicionario.pop("cidade")
-#imprissão completa
-print(f"dicionario completo: {dicionario}")
 
-#impressão de chaves separadamente
-for chave in dicionario:
-    print()
-    print(chave)
-print()
-print()
-#impressão de valores separadamente
-for valor in dicionario.values():
-    print(valor)
-    print()
-
-print()
+#integração entre dicionarios
+outro_dicionario = {"curso": "Python", "nível": "Intermediário"}
+dicionario.update(outro_dicionario)
 print()
 #impressão de chaves e valores separadamente
 for chave, valor in dicionario.items():
