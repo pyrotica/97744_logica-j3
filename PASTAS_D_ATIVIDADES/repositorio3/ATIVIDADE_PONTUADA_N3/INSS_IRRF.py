@@ -83,7 +83,7 @@ while True:
         
 
     elif tentativas==3:
-       print("Numero de tentativas ultrapassada\ncodigo encerrado")
+       print("Numero de tentativas ultrapassadas\ncodigo encerrado")
        break
     
     else:
