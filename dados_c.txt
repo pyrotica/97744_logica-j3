@@ -1,0 +1,4 @@
+a,a,a,1
+b,b,b,2
+fiat,s20,pobre,109
+jeep,s30,rico,7832
