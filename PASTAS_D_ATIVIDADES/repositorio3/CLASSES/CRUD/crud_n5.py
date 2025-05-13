@@ -84,4 +84,3 @@ try:
 
 except FileNotFoundError:
   print("ARQUIVO NAO ENCONTRADO")
-

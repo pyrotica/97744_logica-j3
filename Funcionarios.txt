@@ -1,3 +1,6 @@
 kaio, 2132, 01, louça
 placa, 4123, 02, pratilheira
 queijo, comido, 03, lajota
+1, 1, , 1
+1, 1, , 
+1, 1, 1, 
