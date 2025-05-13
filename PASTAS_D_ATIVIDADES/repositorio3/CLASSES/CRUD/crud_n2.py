@@ -36,6 +36,7 @@ for i in range(QUANT):
 
 print("= SALVANDO OS DADOS DOS CLIENTES =")
 time.sleep(3)
+os.system("cls || clear")
 
 
-print("\nSalvo com sucesso")
+print("\t\nSalvo com sucesso\t")
