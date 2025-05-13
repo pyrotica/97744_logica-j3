@@ -2,36 +2,30 @@ import os
 os.system("cls || clear")
 import time
 from dataclasses import dataclass
+QUANT=5
 
 @dataclass
-class Autoro:
-  autor: str
-
-@dataclass
-class Livros_Autor:
+class Seres:
     nome: str
-    categoria: str
-    preco: float
-liat_D_livros=[]
-QUANT=3
-criador=Autoro(
- autor=input("AUTOR DO LIVRO: ")
-)
-os.system("cls || clear")
+    nasc: str
+    RG: str
+    CPF: str
+liat_D_pessoas=[]
+
 for i in range(QUANT):
  print("===INFORME OS DADOS DOS LIVROS===\n")
- livros=Livros_Autor(
-    
-    nome=input("NOME DO LIVRO: "),
-    categoria=input("CATEGORIA: "),
-    preco=input("PREÇO: ")
+ pessoas=Seres(
+   nome=input("NOME DO DA PESSOA: "),
+    nasc=input("DATA DE NASCIMENTO: "),
+    RG=input("RG: "),
+    CPF=input("CPF: ")
   )
- liat_D_livros.append(livros)
+ liat_D_pessoas.append(pessoas)
  
- nome_arquivo = "Catálogo_Livros.txt"
+ nome_arquivo = "Funcionarios.txt"
 
  with open(nome_arquivo, "a") as arquivo:
-  arquivo.write(f"{criador.autor}, {livros.nome}, {livros.categoria}, {livros.preco}\n")
+  arquivo.write(f"{pessoas.nome}, {pessoas.nasc}, {pessoas.RG}, {pessoas.CPF}\n")
 
  print()
  os.system("cls || clear")
