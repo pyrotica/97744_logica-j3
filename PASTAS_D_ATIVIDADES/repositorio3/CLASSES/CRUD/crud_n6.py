@@ -76,4 +76,3 @@ while True:
     if opcao !=1:
         time.sleep(5)
         os.system("cls || clear")
-
