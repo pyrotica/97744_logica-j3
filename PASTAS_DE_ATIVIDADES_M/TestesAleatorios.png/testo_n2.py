@@ -3,7 +3,7 @@ import random
 import time
 os.system("clear")
 
-alea_num=random.randint(1, 10)
+alea_num=random.randint(1, 1000000)
 num= int(input("digite um numero entre 1 a 10: ")) 
 
 if alea_num==num:
@@ -15,7 +15,7 @@ else:
         print("""
 
     ╔════•ೋೋ•════╗              
-        perdedor
+      ferraz é gay
     ╚════•ೋೋ•════╝
 
          """)

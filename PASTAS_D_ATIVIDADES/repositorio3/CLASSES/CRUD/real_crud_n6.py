@@ -22,9 +22,9 @@ def mostrar(nomes):
         print(f"- {nome}")
     
 def atualizar(nomes):
-    if verificar_lista_vazia:
+    if verificar_lista_vazia(nomes):
         return
-    mostar(nomes)
+    mostrar(nomes)
     nome_antigo = input("Digite o nome que deseja atualizar: ")
     if nome_antigo in nomes:
         novo_nome = input("Digite o novo nome: ")
@@ -44,6 +44,7 @@ def excluir(nomes):
         print(f"{nome_remover} foi excluido com sucesso")
     else:
         print(f"O nome {nome_remover} não foi encontrado")
+
 lista_D_nome=[]
 
 while True:
@@ -69,10 +70,9 @@ while True:
             print("\nSaindo do programa")
             break
         case _:
-            print("\nOpção invalida.\nTente novamente em 2 segundos")
-            time.sleep(2)
-            os.system("cls || clear")
-
+            print("\nOpção invalida.\nTente novamente")
+     
     if opcao !=1:
+        print("\nEspere 5 segundos")
         time.sleep(5)
         os.system("cls || clear")
