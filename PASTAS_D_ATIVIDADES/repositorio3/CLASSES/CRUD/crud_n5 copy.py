@@ -2,7 +2,7 @@ import os
 import time
 from dataclasses import dataclass
 os.system("cls || clear")
-QUANT = 3
+QUANT = 1
 
 @dataclass
 class Client:
@@ -49,7 +49,7 @@ def coletar_dados_funcionarios(quantidade):
         os.system("cls || clear")
     return funcionarios
 
-def salvar_dados_funcionarios(funcionarios, arquivo_nome="Funcionarios.txt"):
+def salvar_dados_funcionarios(funcionarios, arquivo_nome="Funcionarios.CSV"):
     with open(arquivo_nome, "a") as arquivo:
         for funcionario in funcionarios:
             arquivo.write(f"{funcionario.nome_func}, {funcionario.nasc_func}, {funcionario.Mat}, {funcionario.End_func}\n")
