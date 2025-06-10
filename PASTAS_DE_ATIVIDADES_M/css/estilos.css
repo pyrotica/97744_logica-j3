@@ -1,0 +1,43 @@
+/* Alunos: Cauã Costa Sena e Kauan Gabriel */
+
+body{
+    height: 100vh;
+    background: linear-gradient(rgb(3, 206, 233), rgb(10, 6, 221));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 75%;
+    height: 700px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.central button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.sinopse{
+    display: flex;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+

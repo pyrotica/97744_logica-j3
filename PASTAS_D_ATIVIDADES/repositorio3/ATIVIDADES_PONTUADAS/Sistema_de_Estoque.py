@@ -24,7 +24,7 @@ def adicionar():
     produtos.append(produto)
     print("\n== Produto cadastrado com sucesso! ==\n")
     time.sleep(3.5)
-    os.system("cls || clear")
+   
 
 #Função de Listar todos os produtos cadastrdos
 def listar_produtos():
