@@ -1,4 +1,4 @@
-// npm install readline-sync
+// const readline = require('readline-sync')
 let soma=0
 const readline = require('readline-sync')
 const quant = readline.questionInt("Digite a quantidade de numero(s): ")

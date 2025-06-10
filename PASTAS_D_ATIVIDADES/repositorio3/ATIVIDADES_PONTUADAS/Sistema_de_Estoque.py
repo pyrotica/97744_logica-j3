@@ -80,8 +80,6 @@ def atualizar():
     print("Produto não encontrado.\nEspere 2 segundos")
     time.sleep(2)
 
-
-
 while True:
     os.system("cls || clear")
         #lista de opções
